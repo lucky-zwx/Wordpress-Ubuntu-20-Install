@@ -59,7 +59,7 @@ echo "Downloading WordPress"
 cd /tmp/ && wget "https://cn.wordpress.org/latest-zh_CN.tar.gz";
 fi
 
-/bin/tar -C $install_dir -zxf /tmp/latest.tar.gz --strip-components=1
+/bin/tar -C $install_dir -zxf /tmp/latest-zh_CN.tar.gz--strip-components=1
 chown www-data: $install_dir -R
 #### End Download and extract latest WordPress Package
 
