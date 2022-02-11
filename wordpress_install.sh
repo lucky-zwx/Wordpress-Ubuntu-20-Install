@@ -56,7 +56,7 @@ then
 echo "WP is already downloaded."
 else
 echo "Downloading WordPress"
-cd /tmp/ && wget "http://cn.wordpress.org/latest.tar.gz";
+cd /tmp/ && wget "https://cn.wordpress.org/latest-zh_CN.tar.gz";
 fi
 
 /bin/tar -C $install_dir -zxf /tmp/latest.tar.gz --strip-components=1
